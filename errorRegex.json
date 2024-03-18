@@ -1,0 +1,139 @@
+{
+    "error_classes": [
+      {
+        "class_name": "network_errors",
+        "patterns": [
+            "Connection refused",
+            "Timed out",
+            "failed: connect timed out",
+            "Connection reset",
+            "public failed: Connection reset",
+            "Connection reset",
+            "public failed: Connection reset",
+            "failed: connect timed out",
+            "SERVER ERROR: Gateway Time-out",
+            "Unknown host",
+            "failed: Connection refused",
+            "net/http: request canceled"
+
+        ]
+      },
+      {
+        "class_name": "build_errors",
+        "patterns": [
+          "BUILD FAILURE",
+          "FAILURE: Build failed",
+          "Build failed",
+          "ReasonPhrase:Internal Server Error",
+          "Build command failed",
+          "Failed to execute goal",
+          "Execution failed for task",
+          "Build failed with an exception",
+          "Failed to execute goal.*Error creating shaded jar.*HttpFieldPreEncoder*"
+
+        ]
+      },
+      {
+        "class_name": "compile_errors",
+        "patterns": [
+          "compile failed. CompileFailed",
+          "COMPILATION ERROR"
+
+        ]
+      },
+      {
+        "class_name": "download_errors",
+        "patterns": [
+            "Could not download",
+            "Could not resolve",
+            "Could not get resource",
+            "Failed to collect dependencies",
+            "Could not resolve all dependencies",
+            "ModulesFailedToDownload",
+            "Failed to download module",
+            "Failed to retrieve plugin descriptor",
+            "Failed to parse plugin descriptor",
+            "FileNotFoundError",
+            "FileNotFoundException",
+            "Install exited unexpectedly",
+            "Could not transfer",
+            "Error: Cannot find module",
+            "Failed to transfer file",
+            "sbt.ResolveException: download failed",
+            "download failed:",
+            "Phantom installation failed",
+            "ModuleNotFoundError",
+            "denied: requested access to the resource is denied",
+            "Failed to transfer file",
+            "Could not transfer",
+            "Error extracting protoc",
+            "sbt.ResolveException: download failed.",
+            "download failed:",
+            "Phantom installation failed",
+            "No versions available for .* within specified range",
+            "Unable to fetch some archives, maybe run apt-get update or try with",
+            "Error creating assembly archive dist: Problem creating TAR",
+            "problem while downloading module descriptor",
+            "Could not extract archive:",
+            "IO Error:",
+            "Could not find artifact",
+            "IO Error: Could not get content",
+            "Resource temporarily unavailable",
+            "UNRESOLVED DEPENDENCIES",
+            "The following artifacts could not be resolved",
+            "Could not resolve dependencies"
+
+        ]
+      },
+      {
+        "class_name": "docker_errors",
+        "patterns": [
+            "docker: Error response from daemon"
+        ]
+      },
+      {
+        "class_name": "error_patterns",
+        "patterns": [
+            "ERROR",
+            "FAILURE",
+            "FAILED",
+            "ERR!",
+            "fatal",
+            "Error:",
+            "error:",
+            "Error 1"
+        ]
+      },
+      {
+        "class_name": "npm_errors",
+        "patterns": [
+            "npm ERR! code EINTEGRITY",
+            "npm ERR!",
+            "npm http fetch 404",
+            "Could not download Node.js",
+            "npm ERR. A complete log of this run can be found in",
+            "npm ERR! code EINTEGRITY",
+            "npm http fetch 404"
+
+
+        ]
+      },
+      {
+        "class_name": "other_errors",
+        "patterns": [
+            "RunCommandException",
+            "Branch not supported",
+            "An unexpected occurred",
+            "public failed",
+            "Unexpected end of input",
+            "Failed to run task: 'yarn install",
+            "EOFException",
+            "CloudcatLoginException",
+            "deactivated account"
+
+        ]
+      }
+
+    ]
+  }
+  

@@ -1,0 +1,47 @@
+{
+    "error_classes": [
+      {
+        "class_name": "Test",
+        "patterns": [
+          "Test .+ PASSED",
+          "-- Performing Test .+ - .+",
+          "Test:.*?WARN",
+          "Tests run: \\d+, Failures: 0, Errors: 0",
+          "Dmaven.test.error.ignore=true"
+        ]
+      },
+      {
+        "class_name": "Downloading",
+        "patterns": [
+          "\\[INFO\\] Downloading: .+",
+          "\\[INFO\\] Downloaded: .+",
+          "-- Installing: .+"
+
+        ]
+      },
+      {
+        "class_name": "Extra",
+        "patterns": [
+          "Possible Errors ::",
+          "General Errors ::",
+          "\\[Errno 11\\] write could not complete without blocking",
+          "Logging error ---",
+          "Marking build status as failed in etcd and releng databases",
+          "^checking.*(?:yes|no)$",
+          "COMMAND:\\s+(.+?)\\s+--only-show-errors\\s+--no-progress\\s+(.+)\\s*",
+          "HeapDumpOnOutOfMemoryError",
+          ".*INFO.*(?<!ERROR)/grid/0/jenkins/.*",
+          "value is a dictionary"
+
+        ]
+      },
+      {
+        "class_name": "data_objects",
+        "patterns": [
+          "'base_json':",
+          "config_object:"
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,87 @@
+Could not download
+Could not resolve
+Could not get resource
+BUILD FAILURE
+FAILURE: Build failed
+Build failed
+Failed to collect dependencies
+ReasonPhrase:Internal Server Error
+Could not resolve all dependencies
+Build command failed
+compile failed. CompileFailed
+Failed to execute goal
+ModulesFailedToDownload
+Failed to download module
+Failed to retrieve plugin descriptor
+Failed to parse plugin descriptor
+Connection refused
+Timed out
+ERROR
+FAILURE
+FAILED
+ERR!
+fatal
+Error:
+error:
+Error 1
+FileNotFoundError
+FileNotFoundException
+npm ERR! code EINTEGRITY
+RunCommandException
+COMPILATION ERROR
+failed: connect timed out
+Install exited unexpectedly
+Could not transfer
+Error: Cannot find module
+Failed to transfer file
+sbt.ResolveException: download failed
+download failed:
+npm ERR!
+npm http fetch 404
+Execution failed for task
+Build failed with an exception
+Branch not supported
+Phantom installation failed
+An unexpected occurred
+ModuleNotFoundError
+denied: requested access to the resource is denied
+Connection reset
+public failed: Connection reset
+public failed
+Failed to transfer file
+Could not transfer
+Connection reset
+public failed: Connection reset
+Error extracting protoc
+failed: connect timed out
+sbt.ResolveException: download failed.
+download failed:
+Phantom installation failed
+No versions available for .* within specified range
+Unable to fetch some archives, maybe run apt-get update or try with
+Error creating assembly archive dist: Problem creating TAR
+Failed to execute goal.*Error creating shaded jar.*HttpFieldPreEncoder*
+Could not download Node.js
+problem while downloading module descriptor
+SERVER ERROR: Gateway Time-out
+npm ERR. A complete log of this run can be found in
+EOFException
+npm ERR! code EINTEGRITY
+npm http fetch 404
+java.io.IOException
+Unexpected end of input
+Failed to run task: 'yarn install
+Could not extract archive:
+IO Error:
+Could not find artifact
+Unknown host
+IO Error: Could not get content
+failed: Connection refused
+Resource temporarily unavailable
+UNRESOLVED DEPENDENCIES
+The following artifacts could not be resolved
+Could not resolve dependencies
+net/http: request canceled
+docker: Error response from daemon
+deactivated account
+CloudcatLoginException

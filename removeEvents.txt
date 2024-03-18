@@ -1,0 +1,19 @@
+Test .+ PASSED
+\[INFO\] Downloading: .+
+\[INFO\] Downloaded: .+ 
+-- Performing Test .+ - .+
+-- Installing: .+
+Possible Errors ::
+General Errors ::                                                              
+\[Errno 11\] write could not complete without blocking
+Logging error ---
+Marking build status as failed in etcd and releng databases
+Test:.*?WARN
+Tests run: \d+, Failures: 0, Errors: 0
+^checking.*(?:yes|no)$
+'base_json':
+config_object:
+Dmaven.test.error.ignore=true
+COMMAND:\s+(.+?)\s+--only-show-errors\s+--no-progress\s+(.+)\s*
+HeapDumpOnOutOfMemoryError
+.*INFO.*(?<!ERROR)/grid/0/jenkins/.*
